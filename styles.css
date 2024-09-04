@@ -9,7 +9,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100vh;
 }
 
 header {
@@ -64,7 +64,7 @@ nav button img {
 }
 
 main {
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
